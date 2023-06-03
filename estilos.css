@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Nunito:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkorange;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+
+header .logo img {
+    height: 70px;
+    width: auto;
+}
+
+header .nav-link {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header .nav-link li {
+    padding: 0 20px;
+}
+
+header .nav-link li a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 80px;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+article {
+    max-width: 270px;
+}
+
+article h6 {
+    font-size: 16px;
+}
+
+article img {
+    width: 270px;
+    height: 270px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+article .ubicacion-puntuacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+article .descripcion {
+    color: gray;
+}
+
+article .fecha {
+    color: gray;
+}
+
+article .precio {
+    margin-top: 2px;
+    font-weight: 700;
+}
